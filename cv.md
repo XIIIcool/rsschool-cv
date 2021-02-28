@@ -37,6 +37,8 @@ We use: API symfony 4, client side is developed separately
 
 I also had experience in developing an online store on opencart, wp, simpla cms. Worked for half a year with cms bitrix (stretching a template, developing a parser, unloading a price list), codeigniter of old versions, telegram api, skype api, viber api. Basic knowledge of layout. Git version control systems, teamwork experience
 
+
+
 Example code
 ---------
 
@@ -46,6 +48,8 @@ Example code
 
 Experience
 ----------
+
+
 
 **Egorov Agency:**
 
@@ -58,11 +62,15 @@ Technologies PHP 7+, JS, VUE, VUETIFY, NODE JS, REST API, RabbitMQ, WebSocket
 Databases MYSQL, MONGOdb
 SYMFONY, LARAVEL frameworks
 
+
+
 Education
 ----------------------------------------
 
 * Institute of Management: 2013
 * IT Academy "Belhard": 2018
+
+
 
 English
 ----------------------------------------
