@@ -29,6 +29,7 @@
 
         .right-page {
             margin-left: 10px;
+            flex: 0 1 100%;
         }
 
         .image-avatar {
@@ -50,7 +51,7 @@
         .element-caption {
             font-size: 2rem;
             font-family: Tahoma, sans-serif;
-            border-bottom: 1px dotted black;
+            border-bottom: 2px dotted black;
         }
 
         .element-content {
@@ -64,6 +65,29 @@
 
         .element-content .contact-content .contact-content__icon {
             margin-right: 5px;
+        }
+
+        .right-page .fio {
+            font-size: 3rem;
+            margin-top: 20px;
+            margin-right: 20px;
+            text-align: center;
+            width: 100%;
+            border-bottom: 2px solid black;
+        }
+
+        .right-page-element {
+            margin-top: 30px;
+        }
+
+        .right-page-element .right-page-caption {
+            border-bottom: 1px solid black;
+            width: max-content;
+            font-size: 2rem;
+        }
+
+        .right-page-element .right-page-content {
+            margin-top: 10px;
         }
 
     </style>
@@ -99,7 +123,72 @@
             </div>
         </div>
         <div class="right-page">
-            expirens
+            <div class="fio">MAKSIM MALINOUSKI</div>
+
+            <div class="right-page-element">
+                <div class="right-page-caption">
+                    Technical Experience
+                </div>
+                <div class="right-page-content">
+                    <p>SMS mailing site by customer base, filter and selection of customers Used: php 5.4, js, css,
+                        bootstrap 3, mysql</p>
+
+                    <p>Reviews admin panel, collecting statistics on user reviews, rating managers Used: php 5.4, js,
+                    jquery, amcharts.js, css, bootstrap 3, telegram API, smsclub api</p>
+
+                    <p>Admin panel for uploading files, managing files, uploading via a unique link, accounting for uploads
+                    Used: php 7+ laravel, css, js, jquery</p>
+
+                    <p>Admin panel with a recruiting base, search by criteria, uploading presentations to PDF and various
+                    templates Used: php 7+ laravel, css, js, jquery</p>
+
+                    <p>SPA base of sales of auto parts, loading from xlsx, unloading to xlsx Used: php 7+ laravel (box /
+                    spout), VUE JS + vuetify</p>
+
+                    <p>Telegram bot, chat user management Used: nodejs, mongodb</p>
+
+                    <p>I participate in the development of the ticket system We use: API symfony 4, Front-end: SPA Vue +
+                    vuetify, websocket, microservices on node js, work with nodemailer mail, rabbitmq message broker,
+                    mysql and mongodb databases</p>
+
+                    <p>I participate in the development of a grid accounting system … We use: API symfony 4, client side is
+                    developed separately</p>
+
+                    <p>I also had experience in developing an online store on opencart, wp, simpla cms. Worked for half a
+                    year with cms bitrix (stretching a template, developing a parser, unloading a price list),
+                    codeigniter of old versions, telegram api, skype api, viber api. Basic knowledge of layout. Git
+                    version control systems, teamwork experience</p>
+                </div>
+            </div>
+
+
+            <div class="right-page-element">
+                <div class="right-page-caption">
+                    Jobs company
+                </div>
+                <div class="right-page-content">
+                    <div>
+                        <div><b>Egorov Agency:</b></div>
+                        <div>Website development, php js bitrix laravel</div>
+                    </div>
+                    <div>
+                        <div><b>Beltelecom:</b></div>
+                        <div>Development and support of internal projects of the company Technologies PHP 7+, JS, VUE, VUETIFY, NODE JS, REST API, RabbitMQ, WebSocket Databases MYSQL, MONGOdb SYMFONY, LARAVEL frameworks</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-page-element">
+                <div class="right-page-caption">
+                    Education
+                </div>
+                <div class="right-page-content">
+                    <ul>
+                        <li>Institute of Management: 2013</li>
+                        <li>T Academy “Belhard”: 2018</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 
